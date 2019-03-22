@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+       <title>Galeria - Sawicki</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>    
+<body>
+      
+       <!-- Nav - menu -->
+    <setcion>
+        <nav class="nav">
+            <div id="topbar">
+                <div id="logo_topbar"><img src="img/logoB.png"></div>
+                <div id="menu">
+                    <ul class="top-menu">
+                         <li class="top-menu-item " ><a href="index.html" class="nav-link ">Sawicki</a></li>
+                         <li class="top-menu-item"><a href="guesthouse.html" class="nav-link">Pensjonat</a></li>
+                         <li class="top-menu-item"><a href="offert.html" class="nav-link ">Oferta</a></li>
+                         <li class="top-menu-item"><a href="galery.html" class="nav-link current">Galeria</a></li>
+                         <li class="top-menu-item"><a href="#" class="nav-link">Eventy</a></li>
+                         <li class="top-menu-item"><a href="#" class="nav-link">Atrakcje</a></li>
+                        <li class="top-menu-item"><a href="#" class="nav-link">Kontakt</a></li>
+                    </ul>
+                    
+                    <a><i  class="fas fa-bars menu-icon " onclick="openMenu()"></i></a>
+                    <div id="side-menu" class="mobile-menu mobile_menu_link_color ">
+                        <a><i class="fas fa-times cross-icon" onclick="closeMenu()"></i></a>
+                        <a href="index.html" class="nav-link">Sawicki</a>
+                        <a href="guesthouse.html" class="nav-link">Pensjonat</a>
+                        <a href="offert.html" class="nav-link ">Oferta</a>
+                        <a href="galery.html" class="nav-link current">Galeria</a>
+                        <a href="#" class="nav-link">Eventy</a>
+                        <a href="#" class="nav-link">Atrakcje</a> 
+                        <a href="#" class="nav-link">Kontakt</a>  
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown-container">
+            	<div id="menudrop" class="dropdown-start">
+                       <ul>
+                           <li><a class="nav-link">Galeria 1</a></li> 
+                           <li><a class="nav-link">Galeria 2</a></li> 
+                           <li><a class="nav-link">Galeria 3</a></li> 
+                           <li><a class="nav-link">Galeria 4</a></li> 
+                           <li><a class="nav-link">Galeria 5</a></li> 
+                        </ul>
+              	</div>
+            </div> 
+        </nav>
+    </setcion>
+     <div class="v-header">
+       <div style="background: rgba(0,0,0, 0.2);width: 100%;height: 100%; position: fixed"></div>
+       <div class="bgv"><img src="img/plaza.png"></div>
+        <div class="video-wrap fixed-video" >
+           <video src="img/plaza.mp4" autoplay="true" muted="true" loop="true" id="myVideo"></video>
+        </div>
+    </div>
+    <div id="galery_container">
+        <div id="menu_js">
+            <div class="flex_con">
+                <div class="content-container">
+                    <div class="content">
+                        <h2><span style="color:#cc0000;">Nasza</span> Galeria</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor reiciendis sapiente, voluptatibus ea asperiores, corrupti impedit modi eveniet. Odio ratione tempore, quis deleniti dicta nemo dolore. At officiis optio recusandae provident.</p><p>Similique, tempora dolore vero in, cum atque? Voluptate repellendus dignissimos velit adipisci quia, eos rem quibusdam commodi delectus sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, veritatis, labore. Atque, perferendis odit dignissimos veniam unde quia adipisci molestiae deserunt voluptatum rem dolor eos corporis itaque harum nisi beatae id iste. Possimus, accusamus vel corporis tenetur aliquid. Reprehenderit, totam.</p>
+                    </div>
+                    <div class="image_card" data-aos="zoom-in">
+                        <input type="checkbox" name="">
+                        <div class="pulse"></div>
+                        <div class="toggle"><i class="fas fa-plus"></i></div>
+                        <div class="imgBx">
+                            <img src="img/1.jpg">
+                        </div>
+                        <div class="details">
+                            <h3>Super taras</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem soluta alias ab molestias aliquid asperiores at sequi repellat. Cupiditate expedita adipisci illum nam eligendi quas quos quam delectus consequatur. Recusandae, corporis provident, officia ex eveniet perspiciatis numquam!</p>
+                        </div>
+                    </div>
+                    <div class="image_card" data-aos="fade-up">
+                        <input type="checkbox" name="">
+                        <div class="pulse"></div>
+                        <div class="toggle"><i class="fas fa-plus"></i></div>
+                        <div class="imgBx">
+                            <img src="img/2.jpg">
+                        </div>
+                        <div class="details">
+                            <h3>Mega łóżka</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque suscipit perferendis labore, voluptates, quidem quis. Obcaecati iure magni officia, facilis.</p>
+                       </div>
+                    </div>
+                    <div class="image_card"data-aos="fade-up">
+                        <input type="checkbox" name="">
+                        <div class="pulse"></div>
+                        <div class="toggle"><i class="fas fa-plus"></i></div>
+                        <div class="imgBx">
+                            <img src="img/3.jpg">
+                        </div>
+                        <div class="details"><h3>Ultra basen</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi consequuntur aliquid error at architecto eius vel unde commodi, delectus maiores sint harum iusto labore ipsa quia facilis veniam esse corrupti neque, quas explicabo sit asperiores.</p></div>
+                    </div>
+                </div>
+            </div> 
+            <div class="footer">
+                <div id="footer_centered">
+                    <div class="logoB"><img class="footer-logo" src="img/logoB.png"></div>
+                    <pre>
+    Narewska 15, Gdańsk
+    +48 606 888 555
+    kontakt@sawickipensjonat.pl
+                    </pre>
+                    <div class="img_map"><a href="https://www.google.com/maps/place/Narewska+15,+80-110+Gda%C5%84sk/data=!4m2!3m1!1s0x46fd73864147dda1:0x282bdb8cbae58dd2?ved=2ahUKEwjd1LTV4c3gAhVKcZoKHZwCAZAQ8gEwAHoECAAQAQ" target="_blank"><img src="img/mapa.jpg"></a></div>
+                    <ul class="footer_link">
+                        <li><a>Polityka prywatności</a></li>
+                        <li><a>Regulamin obiektu</a></li>
+                        <li><a>Konferencje</a></li>
+                        <li><a>Eventy</a></li>
+                        <li><a>Newsletter</a></li>
+                        <li><a>Opinie gości</a></li>
+                        <li><a>Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="node_modules/aos/dist/aos.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

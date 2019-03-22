@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+       <title>Sawicki</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>    
+<body data-vide-bg="img/mainvideo">
+       <!-- Nav - menu -->  
+    <nav class="nav">
+        <div id="topbar">
+            <div id="logo_topbar" class="mainlogo"><img src="img/logoB.png"></div>
+            <div id="menu">
+                <ul class="top-menu">
+                     <li class="top-menu-item " ><a href="index.html" class="nav-link current">Sawicki</a></li>
+                     <li class="top-menu-item"><a href="guesthouse.html" class="nav-link">Pensjonat</a></li>
+                     <li class="top-menu-item"><a href="offert.html" class="nav-link">Oferta</a></li>
+                      <li class="top-menu-item"><a href="galery.html" class="nav-link">Galeria</a></li>
+                       <li class="top-menu-item"><a href="#" class="nav-link">Eventy</a></li>
+                     <li class="top-menu-item"><a href="#" class="nav-link">Atrakcje</a></li>
+                    <li class="top-menu-item"><a href="#" class="nav-link">Kontakt</a></li>
+                </ul>
+                
+                <a><i  class="fas fa-bars menu-icon" onclick="openMenu()"></i></a>
+                <div id="side-menu" class="mobile-menu"> 
+                    <a><i class="fas fa-times cross-icon" onclick="closeMenu()"></i></a>
+                    <a href="index.html" class="nav-link current">Sawicki</a>
+                    <a href="guesthouse.html" class="nav-link">Pensjonat</a>
+                    <a href="offert.html" class="nav-link">Oferta</a>
+                    <a href="galery.html" class="nav-link">Galeria</a>
+                    <a href="#" class="nav-link">Eventy</a>
+                    <a href="#" class="nav-link">Atrakcje</a> 
+                    <a href="#" class="nav-link">Kontakt</a>  
+                </div>
+               
+            </div>
+        </div>
+    </nav>
+     <div class="header">
+     
+		<div class="overlay"></div>
+		
+		<div id="menu_js" class="main-info" >  
+             
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore expedita in illo reprehenderit consectetur asperiores dolores, molestias enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dicta unde itaque atque illum hic officiis, voluptatem repudiandae ipsum doloribus, sequi quis, nisi quasi dolore nostrum repellendus cumque! Earum, id. Architecto commodi aliquam dolores que id est harum doloremque?</p>
+        </div>
+		
+		<!--<picture class="pic">
+			<source media="(max-width: 360px) and (-webkit-min-device-pixel-ratio: 1.3), (max-width: 360px) and (-o-min-device-pixel-ratio: 13/10), (max-width: 360px) and (min-resolution: 120dpi)" srcset="img/main/m720.jpg">
+			<source media="(max-width: 360px)" srcset="img/main/m360.jpg">
+			<source media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.3), (max-width: 480px) and (-o-min-device-pixel-ratio: 13/10), (max-width: 480px) and (min-resolution: 120dpi)" srcset="img/main/m960.jpg">
+			<source media="(max-width: 480px)" srcset="img/main/m480.jpg">
+			<source media="(max-width: 768px)" srcset="img/main/m768.jpg">
+			
+			<img src="img/main/m1920.jpg" class="pic" alt="">
+			</picture>-->
+    </div>
+    
+    <setcion class="v-header v-container" >
+		
+        
+        <div class="video-wrap">
+           
+            <div style="background: rgba(0,0,0, 0.2);width: 100%;height: 100%; position: fixed; z-index: 2"></div>
+            <div style="width: 1000px; height: 500px;" ></div>
+            
+            
+            <!-- <video autoplay="true" muted="true" loop="true" id="myVideo">
+            	<source id="v1" src="img/test.mp4"  type="video/mp4" >
+            	
+            </video>-->
+        </div>
+   
+        <div class="eventdown">
+        	<div class="eventbox-container">
+				<div id="events" class="eventbox">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+					    	<div class="swiper-slide">Silde 1</div>
+					 		<div class="swiper-slide">Slide 2</div>
+					  		<div class="swiper-slide">Slide 3</div>
+						    <div class="swiper-slide">Slide 4</div>
+						    <div class="swiper-slide">Slide 5</div>
+						    <div class="swiper-slide">Slide 6</div>
+						    <div class="swiper-slide">Slide 7</div>
+						    <div class="swiper-slide">Slide 8</div>
+						    <div class="swiper-slide">Slide 9</div>
+						 </div>
+							<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+								<!-- Add Arrows -->
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+	  				</div>
+		 		</div>
+        	</div>
+        </div>
+    </setcion>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/jquery.vide.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/menu.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+		autoplay: {
+        	delay: 2500,
+        	disableOnInteraction: false,
+      },
+		breakpoints: {
+        	1024: {
+          	slidesPerView: 2,
+          	spaceBetween: 40,
+        },
+			550:{
+				slidesPerView: 1
+			},
+		}
+    });
+	var mySwiper = document.querySelector('.swiper-container').swiper;
+
+
+	mySwiper.navigation.nextEl.setAttribute("style", "color:red;");
+  </script>
+</body>
+</html>
