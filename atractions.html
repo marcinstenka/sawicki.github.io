@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+       <title>Atrakcje - Sawicki</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>    
+<body>
+      
+       <!-- Nav - menu -->
+    <setcion >
+        <nav class="nav">
+            <div id="topbar">
+                <div id="logo_topbar"><img src="img/logoB.png"></div>
+                <div id="menu">
+                    <ul class="top-menu">
+                         <li class="top-menu-item " ><a href="index.html" class="nav-link ">Sawicki</a></li>
+                         <li class="top-menu-item"><a href="guesthouse.html" class="nav-link ">Pensjonat</a></li>
+                         <li class="top-menu-item"><a href="offert.html" class="nav-link ">Oferta</a></li>
+                         <li class="top-menu-item"><a href="galery.html" class="nav-link">Galeria</a></li>
+                         <li class="top-menu-item"><a href="#" class="nav-link">Eventy</a></li>
+                         <li class="top-menu-item"><a href="atractions.html" class="nav-link current">Atrakcje</a></li>
+                        <li class="top-menu-item"><a href="#" class="nav-link">Kontakt</a></li>
+                    </ul>
+                    
+                    <a><i  class="fas fa-bars menu-icon " onclick="openMenu()"></i></a>
+                    <div id="side-menu" class="mobile-menu mobile_menu_link_color ">
+                        <a><i class="fas fa-times cross-icon" onclick="closeMenu()"></i></a>
+                        <a href="index.html" class="nav-link">Sawicki</a>
+                        <a href="#" class="nav-link ">Pensjonat</a>
+                        <a href="offert.html" class="nav-link ">Oferta</a>
+                        <a href="galery.html" class="nav-link">Galeria</a>
+                        <a href="#" class="nav-link">Eventy</a>
+                        <a href="#" class="nav-link current">Atrakcje</a> 
+                        <a href="#" class="nav-link">Kontakt</a>  
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </setcion>
+    
+    	
+    
+	<div class="header">
+		<div class="overlay"></div>
+		<div class="header-title">Atrakcje</div>
+		<div class="down-menu"><a href="index.html">Sawicki </a><i class="fas fa-chevron-right down-menu-icon"></i><a href="#"> Atrakcje</a>
+		</div>
+		<div style="position: absolute; width: 100%; height: 100vh; background: rgba(0,0,0,.1);"> </div>
+		<picture class="pic">
+			<source media="(max-width: 360px) and (-webkit-min-device-pixel-ratio: 1.3), (max-width: 360px) and (-o-min-device-pixel-ratio: 13/10), (max-width: 360px) and (min-resolution: 120dpi)" srcset="img/atractions/a720.jpg">
+			<source media="(max-width: 360px)" srcset="img/atractions/a360.jpg">
+			<source media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.3), (max-width: 480px) and (-o-min-device-pixel-ratio: 13/10), (max-width: 480px) and (min-resolution: 120dpi)" srcset="img/atractions/a960.jpg">
+			<source media="(max-width: 480px)" srcset="img/atractions/a480.jpg">
+			<source media="(max-width: 768px)" srcset="img/atractions/a768.jpg">
+			<source media="(max-width: 1024px)" srcset="img/atractions/a1024.jpg">
+			<source media="(max-width: 1366px)" srcset="img/atractions/a1366.jpg">
+			<source media="(max-width: 1440px)" srcset="img/atractions/a1440.jpg">
+			<img src="img/atractions/a1920.jpg" class="pic" alt="">
+			</picture>
+    </div>
+     <div id="guesthouse_container">
+        <div id="menu_js">
+            <div class="flex_con">
+                <div class="content-container">
+                    <div class="atraction-content">
+                        <div class="atraction">
+                        	<div class="atraction-img-left">
+                        		<img src="img/atractions/section-img/staremiasto.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2 class="atraction-heading">Stare miasto - 1,5 km</h2>
+                        		<p>Część gdańskiej dzielnicy Śródmieście, najstarszy obszar miasta. Na terenie starego miasta możemy znaleźć liczne zabytki. Stoi tu wiele pięknych kościołów m.in. kościół Św. Katarzyny (najstarszy, wybudowany w latach 1227-1239), kościół Św. Jakuba, kościół Św. Brygidy, czy kościół Św. Bartłomieja. Do innych ciekawych zabytków zaliczają się: Ratusz Starego Miasta, budynek Poczty Polskiej, Wielki Młyn i Mały Młyn.</p>
+                        	</div>
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-right">
+                        		<img src="img/atractions/section-img/teatr.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2 class="atraction-heading">Gdański Teatr Szekspirowski - 3 km</h2>
+                        		<p>Gdański Teatr Szekspirowski powstał w miejscu, gdzie w XVII wieku funkcjonował budynek Szkoły Fechtunku – pierwszy publiczny teatr ówczesnej Rzeczypospolitej. Powstały w 2008 roku budynek obecnego teatru jest inspirowany pierwowzorem, wnętrze sali głównej jest częściową rekonstrukcją wybudowanej w Gdańsku w 1635 roku Szkoły Fechtunku. Autorem projektu jest Włoch - Renato Rizzi, który drewniane wnętrze budynku umieścił w ciężkiej ceglanej bryle. Otwierany w 3 minuty dach umożliwia pokazywanie spektakli przy świetle dziennym pod gołym niebem. </p>
+                        	</div>
+                        	
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-left">
+                        		<img src="img/atractions/section-img/hewelianum.jpg">
+                        	</div>
+                        	<h2> </h2>
+                        	<div class="atraction-info">
+                        		<h2>Centrum Hewelianum – 3 km</h2>
+                        		<p>Centrum Hewelianum znajduje się na terenie dawnego Fortu Góry Gradowej w Gdańsku. Łączy w sobie ideę nowoczesnego centrum nauki, czyli instytucji popularyzującej naukę i technikę z dbałością o dziedzictwo kulturowe i spuściznę historyczną.</p>
+                        	</div>
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-right">
+                        		<img src="img/atractions/section-img/2ws.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Muzeum II Wojny Światowej – 3,5 km</h2>
+                        		<p>Państwowa instytucja kultury powołana w 2008. Muzeum zostało otwarte 23 marca 2017. Muzeum ma za cel upowszechniać wiedzę o II wojnie światowej oraz służyć pielęgnowaniu pamięci o jej ofiarach i bohaterach. Jest nowoczesnym obiektem pod względem formy, a także prowadzonej działalności wystawienniczej, edukacyjnej i badawczej.</p>
+                        		
+                        	</div>
+                        	
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-left">
+                        		<img src="img/atractions/section-img/solidarnosc.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Europejskie Centrum Solidarności – 4km</h2>
+                        		<p>Instytucja kultury powołana do życia w 2007 roku przez ministra kultury  i dziedzictwa narodowego, miasto Gdańsk, samorząd województwa pomorskiego, NSZZ Solidarność i Fundację Centrum Solidarności. Celem działalności Centrum jest „upowszechnienie dziedzictwa „Solidarności” w Polsce i innych krajach oraz czynne uczestnictwo w budowie tożsamości europejskiej”.</p>
+                        	</div>
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-right">
+                        		<img src="img/atractions/section-img/kolo.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>AmberSky Gdańsk - Koło Widokowe – 5km</h2>
+                        		<p>Ogromny diabelski młyn umożliwia mieszkańcom i gościom spoza regionu nowe, połączone z dreszczykiem emocji doświadczenie uroków Gdańska, spojrzenie na Starówkę, gdański bursztynowy stadion, stocznię z zabytkowymi już żurawiami, wzgórza morenowe, a nawet odległy Hel z zupełnie innej perspektywy.</p>
+                        	</div>
+                        	
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-left">
+                        		<img src="img/atractions/section-img/park.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Oliwa Park – 12 km</h2>
+                        		<p>Park Oliwski im. Adama Mickiewicza – zabytkowy park w gdańskiej dzielnicy Oliwa, nad Potokiem Oliwskim. Powierzchnia parku wynosi 11,3 ha. Na jego terenie znajduje się Pałac Opatów oraz Ogród Botaniczny. </p>
+                        	</div>
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-right">
+                        		<img src="img/atractions/section-img/twierdza.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Twierdza Wisłoujście - 12 km</h2>
+                        		<p>Położona na prawym brzegu Martwej Wisły, Twierdza Wisłoujście, zbudowana została w XIV wieku. Broniła wejścia do portu. Budowlę wielokrotnie niszczyły sztormy, ale nigdy wrogowie miasta. Dzisiaj stanowi pełne wdzięku pomieszanie stylów: gotyku, renesansu i baroku. W centrum twierdzy znajduje się wieża, która do połowy XVIII wieku spełniała rolę latarni morskiej.</p>
+                        	</div>
+                        	
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-left">
+                        		<img src="img/atractions/section-img/westerplatte.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Westerplatte – 14 km</h2>
+                        		<p>Uformowany w latach 1845-47 półwysep (wcześniej wyspa) w Gdańsku, przy ujściu Martwej Wisły do Zatoki Gdańskiej. Symbol wybuchu II wojny światowej. W okresie tym na terenie Westerplatte funkcjonowała Wojskowa Składnica Tranzytowa, której obrona we wrześniu 1939 stała się symbolicznym początkiem II wojny światowej oraz polskiego oporu przeciw agresji III Rzeszy. Miejsca związane z polem bitwy o Westerplatte zostały wpisane 1 września 2003 na listę Pomników historii.</p>
+                        	</div>
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-right">
+                        		<img src="img/atractions/section-img/zoo.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Gdański Ogród Zoologiczny – 15 km</h2>
+                        		<p>Ogród zoologiczny zlokalizowany w Oliwie, dzielnicy Gdańska. Zajmuje powierzchnię ponad 123 hektarów Trójmiejskiego Parku Krajobrazowego, co czyni z niego największą pod względem powierzchni placówkę tego typu w Polsce.</p>
+                        	</div>
+                        	
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-left">
+                        		<img src="img/atractions/section-img/molo.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Molo Sopot - 15 km</h2>
+                        		<p>Molo w Sopocie im. Jana Pawła II – najdłuższe molo nad Morzem Bałtyckim. Ma około pół kilometra długości – część spacerowa ma 511,5 m, z czego 458 m wchodzi w głąb Zatoki Gdańskiej. Jest jedną z największych atrakcji miasta. W głowicy mola jest zlokalizowana przystań morska „Molo” w Sopocie.</p>
+                        	</div>
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-right">
+                        		<img src="img/atractions/section-img/oboz.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Stutthof - 50 km</h2>
+                        		<p>Nazistowski obóz koncentracyjny utworzony na anektowanych terenach Wolnego Miasta Gdańska w miejscowości Sztutowo. Funkcjonował od 2 września 1939 do 9 maja 1945. Był pierwszym i najdłużej istniejącym obozem tego typu na terenach wchodzących aktualnie w skład Polski. Działał on łącznie 2077 dni. W tym czasie przez obóz przeszło około 110 tysięcy więźniów pochodzących z 28 państw. </p>
+                        	</div>
+                        	
+                        </div>
+                        <div class="atraction">
+                        	<div class="atraction-img-left">
+                        		<img src="img/atractions/section-img/zamek.jpg">
+                        	</div>
+                        	<div class="atraction-info">
+                        		<h2>Zamek w Malborku – 65 km</h2>
+                        		<p>Zamek w Malborku (niem. Ordensburg Marienburg) , na prawym brzegu Nogatu, wzniesiony w kilku etapach od 1280 do poł. XV w. przez zakon krzyżacki. Muzeum o charakterze historyczno-artystycznym oraz placówka kulturalno-naukowa powołana dnia 1 stycznia 1961 roku. Zgromadzono tu ponad 40 tys. muzealiów, głównie dzieł rzeźby, malarstwa i rzemiosła artystycznego. W 1997 zamek w Malborku został wpisany na listę światowego dziedzictwa kulturowego UNESCO.</p>
+                        	</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div> 
+            <div class="footer">
+                <div id="footer_centered">
+                   <div class="back-to-top"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+                    <div class="logoB"><img class="footer-logo" src="img/logoB.png"></div>
+                    <pre>
+    Narewska 15, Gdańsk
+    +48 606 888 555
+    kontakt@sawickipensjonat.pl
+                    </pre>
+                    <div class="img_map"><a href="https://www.google.com/maps/place/Narewska+15,+80-110+Gda%C5%84sk/data=!4m2!3m1!1s0x46fd73864147dda1:0x282bdb8cbae58dd2?ved=2ahUKEwjd1LTV4c3gAhVKcZoKHZwCAZAQ8gEwAHoECAAQAQ" target="_blank"><img src="img/mapa.jpg"></a></div>
+                    <ul class="footer_link">
+                        <li><a>Polityka prywatności</a></li>
+                        <li><a>Regulamin obiektu</a></li>
+                        <li><a>Konferencje</a></li>
+                        <li><a>Eventy</a></li>
+                        <li><a>Newsletter</a></li>
+                        <li><a>Opinie gości</a></li>
+                        <li><a>Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="js/menu.js"></script>
+
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
