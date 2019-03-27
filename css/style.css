@@ -343,7 +343,7 @@ a{
     max-width: 500px;
 	min-width: 200px;
 	height: 70px;
-  	 position: absolute;
+  	position: absolute;
 	bottom: 0;
     overflow: hidden;
 }
@@ -829,7 +829,7 @@ picture {
 	
     }
     .swiper-slide {
-	overflow: hidden;
+	  overflow: hidden;
       text-align: center;
       font-size: 18px;
       background: #fff;
