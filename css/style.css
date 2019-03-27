@@ -341,10 +341,10 @@ a{
 /* eventbox in main*/
 .eventbox{
     max-width: 500px;
-	min-width: 200px;
-	height: 70px;
-  	position: absolute;
-	bottom: 0;
+    min-width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
     overflow: hidden;
 }
 /* offert site*/
