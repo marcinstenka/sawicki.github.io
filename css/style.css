@@ -50,6 +50,7 @@ a{
 .scroll{
    
 	border-bottom: 1px solid black;
+	border-top: 0.25px solid black;
     background: rgba(255, 255, 255, 0.98); 
     transition:0.5s;  
 }
@@ -341,10 +342,10 @@ a{
 .eventbox{
     max-width: 500px;
 	min-width: 200px;
-	height: 100%;
-  
-   
-    
+	height: 70px;
+  	 position: absolute;
+	bottom: 0;
+    overflow: hidden;
 }
 /* offert site*/
 .offertbox, .guesthousebox{
@@ -795,14 +796,11 @@ picture {
 
 
 @keyframes poiting{
-	10%{
-		transform:translateY(2px) ;
-	}
+	
+	
 	50%{
-		transform:translateY(5px) ;
+		transform:translateY(7px) ;
 	}
-	
-	
 }
 .header-main {
 	position: absolute;
@@ -831,6 +829,7 @@ picture {
 	
     }
     .swiper-slide {
+	overflow: hidden;
       text-align: center;
       font-size: 18px;
       background: #fff;
@@ -877,23 +876,35 @@ picture {
 
 
 .atraction-img-left {
-	width: 450px;
+	width: 550px;
 	height: auto;
 	float: left;
 	margin: 0 50px 0 0 ;
+	animation: poiting 1s infinite;
 }
 
 .atraction {
 	width: 100%;
-	min-height:330px;
-	margin: 0 0 100px 0;
+	min-height:301px;
+	padding: 100px 0 100px 0;
 	border-bottom: 3px solid #cc0000;
+	overflow: hidden;
+}
+.atraction:first-of-type{
+	border-top: 3px solid #cc0000;
+}
+.atraction:last-of-type{
+	border: none;
 }
 .atraction-img-right{
-	width: 450px;
+	width: 550px;
 	height: auto;
 	float: right;
 	margin: 0 0 0 50px;
+	animation: poiting 1s infinite;
+}
+.atraction-img-right img,.atraction-img-left img{
+	border-radius: 2%;
 }
 .atraction-img-left img,.atraction-img-right img{
 	width: 100%;
@@ -913,9 +924,8 @@ picture {
 
 .atraction-content {
 	
-	width: 70%;
-    margin: auto;
-
+	width: 60%;
+    margin: auto;	
 }
 /* media queries */
 
@@ -1055,6 +1065,7 @@ picture {
 	.links-to-subpages .icon-link:nth-of-type(1){
 		padding: 30px 0; 
 	}
+	
 }
 @media only screen and (max-width: 500px) {
 	.header-title{
@@ -1106,8 +1117,16 @@ picture {
 	.atraction-img-right,.atraction-img-left{
 		width: 95%;
 	}
+	
 }
-
+@media only screen and (max-width: 550px) {
+	.swiper-container{
+		width: 100%;
+	}
+	.eventbox{
+		width: 150px;
+	}
+}
 @media only screen and (max-width: 380px) {
 	.menu-icon{
 		margin: 20px ;
