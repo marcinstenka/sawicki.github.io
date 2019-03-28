@@ -946,6 +946,16 @@ picture {
     }
     
 }
+@media only screen and (max-width: 1450px){
+	.atraction-img-right, .atraction-img-left{
+		float: none !important;
+		margin: auto;
+	}
+	.atraction-info{
+		margin: 30px 0;
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 1300px){
    
     .content-container{
@@ -956,6 +966,7 @@ picture {
 	.nav .nav-link, .nav .nav-link:link, .nav .nav-link:visited, .nav .nav-link:active{
 		font-size: 20px;
 	}
+	
 }
 @media only screen and (max-width: 1133px) {
     .content-container{
@@ -1047,13 +1058,7 @@ picture {
 		width: 70%;
 		left: 15%;
 	}
-	.atraction-img-right, .atraction-img-left{
-		float: none !important;
-		margin: auto;
-	}
-	.atraction-info{
-		margin: 30px 0
-	}
+	
 }
 @media only screen and (max-width: 640px) {
     .image_card{
