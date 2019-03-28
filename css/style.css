@@ -880,7 +880,7 @@ picture {
 	height: auto;
 	float: left;
 	margin: 0 50px 0 0 ;
-	animation: poiting 1s infinite;
+	
 }
 
 .atraction {
@@ -901,7 +901,7 @@ picture {
 	height: auto;
 	float: right;
 	margin: 0 0 0 50px;
-	animation: poiting 1s infinite;
+	
 }
 .atraction-img-right img,.atraction-img-left img{
 	border-radius: 2%;
