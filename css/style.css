@@ -358,7 +358,7 @@ a{
     margin-top: 150px;
 }
 .offert-image, .guesthouse-image{
-    max-width: 600px;
+    max-width: 500px;
 	
 	margin: auto;
     
@@ -708,7 +708,7 @@ picture {
 
 .stage-header {
 	
-	padding: 50px 0 50px 0;
+	padding: 130px 0 50px 0;
 	border-top: 2px solid #cc0000;
 	
 }
@@ -1001,7 +1001,16 @@ picture {
 	.dropdown-container{
 		display: none !important;
 	}
-	
+	.stage-header{
+		padding-top:90px;
+	}
+	.content{
+		width: 100%;
+	}
+	.links-to-subpages{
+		width: 60% !important;
+
+	}
 }
 @media only screen and (max-width: 950px) {
     .offertbox, .guesthousebox{
@@ -1059,17 +1068,15 @@ picture {
 		left: 15%;
 	}
 	
+	
 }
-@media only screen and (max-width: 640px) {
-    .image_card{
-        min-height: 200px;
-    }
-	.icon-link{
-		float: none !important;
+@media only screen and (max-width: 700px) {
+    .links-to-subpages{
+		width: 100% !important;
+
 	}
-	.links-to-subpages .icon-link:nth-of-type(1){
-		padding: 30px 0; 
-	}
+	
+	
 	
 }
 @media only screen and (max-width: 500px) {
@@ -1078,9 +1085,7 @@ picture {
 		left: 50%;
 		transform: translate(-50%,-50%);
 	}
-	.content{
-		width: 100%;
-	}
+	
     .image_card{
         height: auto;
     }
@@ -1121,6 +1126,12 @@ picture {
 	}
 	.atraction-img-right,.atraction-img-left{
 		width: 95%;
+	}
+	.icon-link{
+		float: none !important;
+	}
+	.links-to-subpages .icon-link:nth-of-type(1){
+		padding: 30px 0; 
 	}
 	
 }
