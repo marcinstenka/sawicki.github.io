@@ -1,16 +1,4 @@
 $(document).ready(function(){
-function openMenu() {
-    document.getElementById("side-menu").style.width = '250px';
-    
-    document.getElementById("menu_js").style.marginRight = '250px';
-    document.getElementById("menu_js").style.marginLeft = '-250px';
-}
-function closeMenu() {
-    document.getElementById("side-menu").style.width = '0';
-    
-    document.getElementById("menu_js").style.marginRight = '0';
-    document.getElementById("menu_js").style.marginLeft = '0';
-}
 $(function(){
 	var navbar = $('.nav');
     var icon = $('.menu-icon');
@@ -36,3 +24,15 @@ $(function(){
 	}).scroll();
 });
 });
+function openMenu() {
+    document.getElementById("side-menu").style.width = '250px';
+    
+    document.getElementById("menu_js").style.marginRight = '250px';
+    document.getElementById("menu_js").style.marginLeft = '-250px';
+}
+function closeMenu() {
+    document.getElementById("side-menu").style.width = '0';
+    
+    document.getElementById("menu_js").style.marginRight = '0';
+    document.getElementById("menu_js").style.marginLeft = '0';
+}
