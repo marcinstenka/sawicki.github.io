@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
        <title>Oferta - Sawicki</title>
+       <link rel="icon" href="img/ikona.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -43,11 +44,11 @@
             <div class="dropdown-container">
 				<div id="menudrop" class="dropdown-start">
 					<ul>
-						<li><a href="#offertscroll1" class="nav-link">Oferta 1</a></li> 
-						<li><a href="#offertscroll2" class="nav-link">Oferta 2</a></li> 
-						<li><a href="#offertscroll3" class="nav-link">Oferta 3</a></li> 
-						<li><a href="#offertscroll4" class="nav-link">Oferta 4</a></li> 
-						<li><a href="#offertscroll5" class="nav-link">Oferta 5</a></li> 
+						<li><a href="#offertscroll1" class="nav-link sm2 sm3 sm3 sm4 sm5">Oferta 1</a></li> 
+						<li><a href="#offertscroll2" class="nav-link sm1 sm3 sm4 sm5">Oferta 2</a></li> 
+						<li><a href="#offertscroll3" class="nav-link sm1 sm2 sm4 sm5">Oferta 3</a></li> 
+						<li><a href="#offertscroll4" class="nav-link sm1 sm2 sm3 sm5">Oferta 4</a></li> 
+						<li><a href="#offertscroll5" class="nav-link sm1 sm2 sm3 sm4">Oferta 5</a></li> 
 					</ul>
 				</div> 
        		</div>
@@ -83,7 +84,7 @@
                         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dit adipisci quia, eos rem quibusdam commodi delectus sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, veritatis, labore. Atque, perferendis odit dignissimos veniam unde quia adipisci molestiae deserunt voluptatum rem dolor eos corporis itaque harum nisi beatae id iste. Possimus, accusamus vel corporis tenetur aliquid. Reprehenderit, totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente cum eveniet, nulla eaque. Alias magni voluptas quis aperiam doloremque tempora enim pariatur voluptates facilis exercitationem repellat deleniti quas delectus similique quae in voluptatum, possimus, non ad. Fuga, praesentium voluptate odit!</p>
                         </div>
                         <div id="offertscroll1"></div>
-                        <div id="offert" class="stage" >
+                        <div id="stage1" class="stage" >
                             <div class="stage-header"><h2>Oferta 1</h2></div>
                             <div class="offertbox" >
                                 <div class="offert-image" ><img src="img/oferta.jpg"></div>
@@ -109,7 +110,7 @@
                             </div>
                         </div>
 						<div id="offertscroll2"></div>
-                        <div id="offert2" class="stage">
+                        <div id="stage2" class="stage">
                             <div class="stage-header"><h2>Oferta 2</h2></div>
                             <div class="offertbox">
                                 <div class="offert-image reversed_image" ><img src="img/oferta.jpg"></div>
@@ -137,7 +138,7 @@
                             </div>
                         </div>
                         <div id="offertscroll3"></div>
-                        <div id="offert3" class="stage">
+                        <div id="stage3" class="stage">
                             <div class="stage-header"><h2>Oferta 3</h2></div>
                             <div class="offertbox">
                                 <div class="offert-image" ><img src="img/oferta.jpg"></div>
@@ -167,7 +168,7 @@
                             </div>
                         </div>
                         <div id="offertscroll4"></div>
-                        <div id="offert4" class="stage">
+                        <div id="stage4" class="stage">
                             <div class="stage-header"><h2>Oferta 4</h2></div>
                             <div class="offertbox reverse">
                                 <div class="offert-image reversed_image"><img src="img/oferta.jpg"></div>
@@ -197,7 +198,7 @@
                             </div>
                         </div>
                         <div id="offertscroll5"></div>
-                        <div id="offert5" class="stage">
+                        <div id="stage5" class="stage">
                             <div class="stage-header"><h2>Oferta 5</h2></div>
                             <div class="offertbox">
                                 <div class="offert-image"><img src="img/oferta.jpg"></div> 
@@ -253,8 +254,11 @@
     
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+
 
 <script src="js/menu.js"></script>
+<script src="js/magicscroll.js"></script>
 
 <script>
   AOS.init();

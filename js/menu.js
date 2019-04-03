@@ -1,3 +1,4 @@
+$(document).ready(function(){
 function openMenu() {
     document.getElementById("side-menu").style.width = '250px';
     
@@ -32,5 +33,6 @@ $(function(){
             var newSrc = 'img/logoC.png';
             $('#logo_topbar img[src="' + oldSrc + '"]').attr('src', newSrc);
 		}
-	});
+	}).scroll();
+});
 });
