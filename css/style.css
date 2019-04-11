@@ -718,7 +718,7 @@ picture {
 .stage {
 	width: 100%;
 	min-height: 900px;
-	background: #eff0f2;
+	
 }
 
 .stage-header {
@@ -735,7 +735,11 @@ picture {
 	position: relative;
 }
 
-
+.guesthouse-header, .guesthouse-header {
+	width: 100%;
+	margin: auto;
+	padding: 0 0 30px 0
+}
 .guesthouse-header h2{
 	margin: 0;
 }
@@ -752,8 +756,8 @@ picture {
 
 .guesthouse-info, .offert-info {
 	margin: 0;
-	padding: 30px 30px 30px 30px;
-	background: #eff0f2;
+	padding: 30px 30px 70px 30px;
+	
 }
 
 .back-to-top {
